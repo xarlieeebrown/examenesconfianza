@@ -4,6 +4,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fondo2{
+    background-image: url(../img/principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo5{
+    background-image: url(../img/contacto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .invertido{
     -webkit-filter: invert(100%);
     filter: invert(100%);
