@@ -10,6 +10,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fondo3{
+    background-image: url(../img/contacto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .fondo5{
     background-image: url(../img/contacto.png);
     background-position: center;
