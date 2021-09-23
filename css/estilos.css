@@ -32,6 +32,12 @@
     z-index: 8;
     
 }
+.fuera{
+    position: absolute;
+    bottom: 50;
+    left: 30%;
+    z-index: 50;
+}
 
 .arriba{
     position: fixed;
