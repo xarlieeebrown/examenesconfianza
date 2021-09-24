@@ -1,6 +1,6 @@
 .fondo1{
-    background: radial-gradient(circle at right,rgba(0,0,0,0.12) 0%,rgba(9,16,25,0.93) 60%);
-    background-image: url(../img/principal.png);
+    
+    background-image: radial-gradient(circle at right,rgba(0,0,0,0.12) 0%,rgba(9,16,25,0.93) 60%), url(../img/0000.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,16 +8,17 @@
     
 }
 .fondo2{
-    background-image: url(../img/principal.png);
+    background-image: radial-gradient(circle at center,rgba(21,28,50,0.73) 0%,rgba(9,16,25,0.92) 100%), url(../img/0000.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .fondomedico{
-    background-image: url(../img/medico-laboral.jpg);
+    background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.79) 60%),url(../img/medico-laboral.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .fondo3{
     background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%);
@@ -43,6 +44,18 @@
     bottom: 50;
     left: 30%;
     z-index: 50;
+}
+.sombra{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
+}
+.amarillo{
+    height: 8px;
+    width: 5%;
+    background-color: #edf000;
+    left: 48%;
+    position: relative;
+    
+    
 }
 
 .arriba{
