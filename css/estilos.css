@@ -103,4 +103,64 @@ height: auto;
 }
 
 
+
+/* filtrado */
+input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .filters * {
+    display: inline-block;
+  }
+
+  .posts .post-categories {
+    margin-bottom: 0.75rem;
+    font-size: 0.75rem;
+  }
+  
+  .posts .post-categories * {
+    display: inline-block;
+  }
+  
+  .posts .post-categories li {
+    margin-bottom: 0.2rem;
+  }
+  
+  .posts .post-categories a {
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid;
+    line-height: normal;
+    transition: all 0.1s;
+  }
+  
+  .posts .post-categories a:hover {
+    background: var(--green);
+    color: var(--white);
+  }
+
+
+  /* FILTERING RULES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  
+  [value="Preempleo"]:checked ~ .filters [for="Preempleo"],
+  [value="Permanencia"]:checked ~ .filters [for="Permanencia"],
+  [value="Especifico"]:checked ~ .filters [for="Especifico"] {
+    background: var(--green);
+    color: var(--white);
+  }
+  
+  [value="todo"]:checked ~ .posts [data-category] {
+    display: block;
+    }
+  
+[value="Preempleo"]:checked ~ .posts .post:not([data-category~="Preempleo"]),
+[value="Permanencia"]:checked ~ .posts .post:not([data-category~="Permanencia"]),
+[value="Especifico"]:checked ~ .posts .post:not([data-category~="Especifico"])
+ {
+    display: none;
+}
+
+
 @media only screen and (min-width:900px) and (max-width:2000px){}
