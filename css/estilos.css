@@ -1,11 +1,8 @@
 .fondo1{
-    
     background-image: radial-gradient(circle at right,rgba(0,0,0,0.12) 0%,rgba(9,16,25,0.93) 60%), url(../img/0000.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-
-    
+    background-size: cover 
 }
 .fondo2{
     background-image: radial-gradient(circle at center,rgba(21,28,50,0.73) 0%,rgba(9,16,25,0.92) 100%), url(../img/0000.png);
@@ -17,8 +14,7 @@
     background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.79) 60%),url(../img/medico-laboral.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 .fondo3{
     background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%);
@@ -28,6 +24,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.fondopoli{
+    background-image: radial-gradient(circle at bottom left,#003957 0%,rgba(12,113,195,0.27) 100%), url(../img/poligrafo-banner.jpg);
 }
 .invertido{
     -webkit-filter: invert(100%);
