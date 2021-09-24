@@ -59,8 +59,13 @@
     background-color: #edf000;
     left: 48%;
     position: relative;
-    
-    
+}
+.gris{
+    height: 8px;
+    width: 5%;
+    background-color: #003957;
+    left: 48%;
+    position: relative;
 }
 .sobrepuesto{
     position: relative;
