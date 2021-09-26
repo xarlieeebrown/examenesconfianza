@@ -27,10 +27,31 @@
 }
 .fondopoli{
     background-image: radial-gradient(circle at bottom left,#003957 0%,rgba(12,113,195,0.27) 100%), url(../img/poligrafo-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondopsico{
+    background-image: radial-gradient(circle at bottom left,#3c3f7e 0%,rgba(85,96,169,0.6) 100%), url(../img/prueba-psicometrica.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondolaboral{
+    background-image: radial-gradient(circle at bottom left,#0c71c3 0%,rgba(12,113,195,0.27) 100%), url(../img/medico-laboral.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .invertido{
     -webkit-filter: invert(100%);
     filter: invert(100%);
+}
+.morado{
+    color: rgb(85, 96, 169);
+}
+.azul{
+    color: rgb(12, 113, 195);
 }
 .color a:hover{
     color: #edf000;
