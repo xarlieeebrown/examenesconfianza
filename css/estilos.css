@@ -47,8 +47,19 @@
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
+.depoligrafo{
+    background-color: #003957;
+    height: 7px;
+    width: 5%;
+    
+    left: 47%;
+    position: relative;
+}
 .morado{
     color: rgb(85, 96, 169);
+}
+.marino{
+    color:#003957;
 }
 .azul{
     color: rgb(12, 113, 195);
@@ -61,6 +72,12 @@
     top:-60px;
     z-index: 8;
     
+}
+.gordita{
+    font-weight: 800;
+}
+.policolor{
+    color:#565656;
 }
 .choncha{
     font-size: 4.5em; 
@@ -79,10 +96,10 @@
     box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
 }
 .amarillo{
-    height: 8px;
+    height: 7px;
     width: 5%;
     background-color: #edf000;
-    left: 48%;
+    left: 47%;
     position: relative;
 }
 .gris{
