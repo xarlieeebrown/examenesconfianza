@@ -58,6 +58,22 @@
 .morado{
     color: rgb(85, 96, 169);
 }
+.moradito{
+    background-color: rgb(85, 96, 169);
+    height: 7px;
+    width: 5%;
+    
+    left: 47%;
+    position: relative;
+}
+.rayablanca{
+    background-color: #fff;
+    height: 7px;
+    width: 5%;
+    
+    left: 47%;
+    position: relative;
+}
 .marino{
     color:#003957;
 }
