@@ -238,10 +238,18 @@ input[type="radio"] {
     .desaparece{
         display: none;
     }
+    .amarillo{
+        width: 20%;
+        left: 40%;
+        
+    }
 }
 @media only screen and (min-width:901px) and (max-width:3000px){
     .choncha{
         font-size: 4.5em; 
         font-weight: 900;
+    }
+    .desaparece{
+        display: none;
     }
 }
