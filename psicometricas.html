@@ -49,7 +49,7 @@
         <div class="container ">
             
           <a class="navbar-brand" href="index.html">
-              <img src="img/examenes_confianza_logo.png" class=" img-fluid" alt="logo" width="250" height="auto">
+              <img data-src="img/examenes_confianza_logo.png" class="lazyload img-fluid" alt="logo" width="250" height="auto">
           </a>
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="bi bi-list text-success lh-base"></i></span>
@@ -79,10 +79,10 @@
     <div class="container py-5  text-white">
         <h1 class="  text-center mb-4 pt-5 choncha  text-uppercase"> Pruebas Psicométricas</h1>
         <div class="mb-5" style="display: flex; justify-content: center; ">
-        <h5 class="border-end border-light border-2 px-5 fw-bold m-0 text-uppercase" >Personalidad</h5>
-        <h5 class="border-light border-2 border-end px-5 fw-bold m-0 text-uppercase "> Aptitudes </h5>
-        <h5 class="border-light border-2 border-end px-5 fw-bold m-0  text-uppercase"> Habilidades</h5>    
-        <h5 class="px-5 fw-bold m-0 text-uppercase "> Perfiles</h5>    
+        <h5 class="border-end border-light border-2 px-5 fw-bold m-0 text-uppercase desaparece" >Personalidad</h5>
+        <h5 class="border-light border-2 border-end px-5 fw-bold m-0 text-uppercase desaparece "> Aptitudes </h5>
+        <h5 class="border-light border-2 border-end px-5 fw-bold m-0  text-uppercase desaparece"> Habilidades</h5>    
+        <h5 class="px-5 fw-bold m-0 text-uppercase desaparece"> Perfiles</h5>    
         </div>
     </div>
 </section>
@@ -92,7 +92,18 @@
         
         
         <div class="row  ">
-            <div class="col-sm-12 col-md-12 col-lg-6 border-light border-3 border-end ">
+            <div class="col-sm-12 col-md-12 col-lg-6 border-light border-3 border-end desaparece">
+                <div class="row">
+                    <div class="col-1">
+                        <p class=""><i class="bi bi-pen fs-3 text-white"></i></p>
+                    </div>
+                    <div class="col">
+                        <h5 class=" mb-3 text-white"> RECLUTAMIENTO Y SELECCIÓN</h5>
+                        <p class=" text-white roboto"> <small> Encontrar personas en el mercado laboral actual seguirá siendo un desafío. Encontrar personas en el mismo mercado que puedan hacer el trabajo, lo hagan correctamente y se adapten al clima laboral de su empresa es aún más difícil. Usar la metodología de reclutamiento correcta junto con las pruebas psicométricas lo diferenciará de su competencia.</small></p>
+                    </div>
+                </div>    
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 aparece ">
                 <div class="row">
                     <div class="col-1">
                         <p class=""><i class="bi bi-pen fs-3 text-white"></i></p>
@@ -133,8 +144,8 @@
                 </small>
                     </p>
                 </div>
-                <div class="col">
-                    <img src="img/00-min.webp" alt="imagen">
+                <div class="col mb-4">
+                    <img class="lazyload" data-src="img/00-min.webp" alt="imagen">
                 </div>
             </div>
             <p class="fw-light roboto"> <small>  Las pruebas psicométricas miden la capacidad, la inteligencia y la personalidad de los candidatos para ayudarle a identificar al talento humano más calificado para su empresa, son aplicadas por psicólogos ocupacionales para medir la aptitud, inteligencia y personalidad de una persona. A través de estas pruebas, usted podrá tener una saber con mayor certeza si un candidato tiene la capacidad de manejar un determinado puesto en su empresa.</small></p>            
@@ -147,10 +158,8 @@
             <h2 class="text-center policolor gordita">PRUEBAS PSICOMÉTRICAS LABORALES</h2>
             <div class="moradito mb-4"></div>
             <p class="text-center fw-light roboto mb-5">Contamos con las evaluaciones ideales para sus objetivos de contratación, estas son algunas de las pruebas que podemos aplicar para ayudarle a mejorar significativamente su proceso de contratación:</p>
-
-            
             <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-3 ">
-                <div class="col mb-4">
+                <div class="col mb-4 d-flex justify-content-center">
                     <div class="card shadow" style="width: 20rem;">
                         <img src="img/3-1.webp" class="card-img-top" alt="pruebas de polígrafo">
                             <div class="card-body p-4">
@@ -160,7 +169,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col mb-4 d-flex justify-content-center">
                     <div class="card shadow" style="width: 20rem;">
                         <img class="card-img-top" src="img/2-1.webp" alt="toxicología">
                         <div class="card-body p-4">
@@ -169,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col d-flex justify-content-center">
                     <div class="card shadow" style="width: 20rem;">
                     <img class="card-img-top" src="img/1.webp" alt="pruebas psicometricas">
                         <div class="card-body p-4">
@@ -190,8 +199,8 @@
         <div class="container py-5">
             <h2 class=" text-center policolor"> VENTAJAS Y BENEFICIOS </h2>
             <div class="moradito mb-5"></div>
-            <div class="row">
-                <div class="col">
+            <div class="row row-cols-lg-2 row-cols-sm-1 mb-4">
+                <div class="cols-sm-12 cols-lg-6 mb-4">
                     <div class="row">
                         <div class="col-1">
                             <i class="bi bi-compass fs-2 text-info "></i>
@@ -203,7 +212,7 @@
                     </div>
                     
                 </div>
-                <div class="col">
+                <div class="cols-sm-12 cols-lg-6 mb-4">
                     <div class="row">
                         <div class="col-1">
                             <i class="bi bi-compass fs-2 text-info "></i>
@@ -296,39 +305,39 @@
         <p class="text-center "> <a class="btn mb-5  btn-outline-light text-uppercase fw-bold" href="contacto.html">Ir a contacto</a></p>
         <hr class="my-5"> 
         <small>
-        <div class="row mb-5">
-            <div class="col">
+        <div class="row row-cols-lg-4 row-cols-sm-1 text-center text-lg-start">
+            <div class=" cols-xs-12 cols-sm-12 cols-md-4 cols-lg-4 mb-4">
                 <h6  >NOSOTROS</h6>
                 <p class="fw-light roboto">   Nuestro objetivo es brindarte la confianza y seguridad en la contratación del personal que usted está contratando haciendo uso de diferentes filtros personalizables de acuerdo a sus necesidades de contratación.</p>
             </div>
-            <div class="col">
+            <div class=" cols-xs-12 cols-sm-12 cols-md-4 cols-lg-4 mb-4">
                 <h6 class="text-uppercase">Secciones</h6>
                 <p class="m-0"><a class="text-decoration-none text-white fw-light   roboto" href=""> Pruebas de Polígrafo  </a></p>
                 <p class="m-0"><a class="text-decoration-none text-white fw-light roboto" href=""> toxicología y alcoholimetría  </a></p>
                 <p class="m-0"><a class="text-decoration-none text-white fw-light roboto" href=""> Pruebas psicométricas  </a></p>
                 <p class="m-0"><a class="text-decoration-none text-white fw-light roboto" href=""> Estudios socioeconomicos  </a></p>
             </div>
-            <div class="col">
+            <div class=" cols-xs-12 cols-sm-12 cols-md-4 cols-lg-4 mb-4">
                 <h6 class="text-uppercase"> Otros servicios</h6>
                 <p class="m-0"> <a class="text-decoration-none text-white fw-light roboto" href=""> examen Médico Laboral </a></p>
                 <p class="m-0"> <a class="text-decoration-none text-white fw-light roboto" href=""> Perfil Medico SSP</a></p>
             </div>
-            <div class="col">
+            <div class=" cols-xs-12 cols-sm-12 cols-md-4 cols-lg-4 mb-4">
                 <h6 class="text-uppercase">Contacto</h6>
                 <p class="text-white fw-light roboto"> <i class="bi bi-whatsapp text-success"></i> &nbsp;  55 8742 6237</p>
             </div>
             
         </div>
         <hr class="">
-        <div class="row py-2">
-            <div class="col">
-                <img src="img/examenes_confianza_logo.png" alt="">
+        <div class="row row-cols-sm-1 row-cols-lg-3 py-2">
+            <div class="cols-lg-4 cols-md-12 text-center mb-2">
+                <img class="lazyload" data-src="img/examenes_confianza_logo.png" alt="">
             </div>
             <div class="col">
                 
             </div>
-            <div class="col">
-                <p class="text-end"><a class="text-white text-decoration-none color" href="privacidad.html"> Privacidad</a></p>
+            <div class="cols-lg-4 cols-md-12 ">
+                <p class="text-lg-end text-center "><a class="text-white text-decoration-none color" href="privacidad.html"> Privacidad</a></p>
             </div>
         </div>
         </small>

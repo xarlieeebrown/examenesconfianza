@@ -134,6 +134,12 @@
     top:-60px;
     z-index: 25;
 }
+.cartita{
+    width: 30rem;
+}
+.cartita2{
+    width: 30rem;
+}
 
 .arriba{
     position: fixed;
@@ -251,13 +257,23 @@ input[type="radio"] {
         width: 20%;
         left: 40%;
     }
+    .gris{
+        width: 20%;
+        left: 40%;
+    }
+    .cartita{
+        width: 25rem;
+    }
+    .cartita2{
+        width: 20rem;
+    }
 }
 @media only screen and (min-width:901px) and (max-width:3000px){
     .choncha{
         font-size: 4.5em; 
         font-weight: 900;
     }
-    .desaparece{
+    .aparece{
         display: none;
     }
 }
