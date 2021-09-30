@@ -102,10 +102,7 @@
 .policolor{
     color:#565656;
 }
-.choncha{
-    font-size: 4.5em; 
-    font-weight: 900;
-}
+
 .fuera{
     position: absolute;
     bottom: 50;
@@ -233,5 +230,18 @@ input[type="radio"] {
     display: none;
 }
 
-
-@media only screen and (min-width:900px) and (max-width:2000px){}
+@media only screen and (min-width:300px) and (max-width:900px){
+    .choncha{
+        font-size: 2.3em; 
+        font-weight: 900;
+    }
+    .desaparece{
+        display: none;
+    }
+}
+@media only screen and (min-width:901px) and (max-width:3000px){
+    .choncha{
+        font-size: 4.5em; 
+        font-weight: 900;
+    }
+}
