@@ -1,18 +1,18 @@
 .fondo1{
-    background-image: radial-gradient(circle at right,rgba(0,0,0,0.12) 0%,rgba(9,16,25,0.93) 60%), url(../img/0000.png);
+    background-image: radial-gradient(circle at right,rgba(0,0,0,0.12) 0%,rgba(9,16,25,0.93) 60%), url(../img/0000.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover 
 }
 .contacto{
-    background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%), url(../img/0000.png);
+    background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%), url(../img/0000.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover 
     
 }
 .fondo2{
-    background-image: radial-gradient(circle at center,rgba(21,28,50,0.73) 0%,rgba(9,16,25,0.92) 100%), url(../img/0000.png);
+    background-image: radial-gradient(circle at center,rgba(21,28,50,0.73) 0%,rgba(9,16,25,0.92) 100%), url(../img/0000.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
     background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%);
 }
 .fondo5{
-    background-image: url(../img/contacto.png);
+    background-image: url(../img/contacto.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
